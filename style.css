@@ -1,0 +1,29 @@
+.square {
+    flex: 1 1 auto;
+}
+
+.square-grid {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 900px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    width: 960px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    flex: 1 1 auto;
+}
+
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
